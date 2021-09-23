@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem vindo</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            color: red;
+        }
+
+        button{
+            border-radius: 25px;
+            background-color: black;
+            color: whitesmoke;
+        }
+
+        button:hover{
+            background-color: tomato;
+            transition: background-color .5s;
+        }             
+    </style>
+
+</head>
+<body>
+    <h1>Boas vindas!!!!!!!!!</h1>
+    <button onclick="dizerOla()">Clique aqui</button>
+    
+    <script>
+        function dizerOla(){
+            if (confirm("Deseja mesmo sair dessa página?")){
+                window.open('http://www.google.com.br', '_blank');
+            }else(alert("Obrigado! Você pode acessar a página a qualquer momento!"))
+        }
+    </script>
+
+
+</body>
+</html>
