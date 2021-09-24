@@ -1,0 +1,15 @@
+{
+  "name": "cdt-imperativa-aula18",
+  "version": "1.0.0",
+  "description": "Aula 18 de Imperativa",
+  "main": "index.js",
+  "scripts": {
+    "iniciar": "nodemon index.js -L",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Breno Bertelli Mendes",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
